@@ -1,0 +1,13 @@
+@keyframes colorChange {
+    0%, 100% {
+        color: blue;
+    }
+    50% {
+        color: yellow;
+    }
+}
+
+.jumpingText {
+    font-size: 32px;
+    animation: jump 1s infinite, blink 1s step-start infinite, colorChange 2s infinite;
+}
